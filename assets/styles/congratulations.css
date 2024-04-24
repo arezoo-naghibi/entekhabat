@@ -1,0 +1,362 @@
+body {
+  font-family: Dana;
+  width: 100%;
+  height: 100vh;
+}
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+/* start sidebar*/
+.container-right {
+  width: 25%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.right {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 0px 0;
+}
+/* start sidebar vote class */
+.sidebar-vote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.img-vote img {
+  width: 81px;
+  height: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px 20px 0px 0px;
+}
+.sidebar-title h4 {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end sidebar vote class */
+
+/* start menu lists in sidebar  */
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 40px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #707070;
+  background-color: #6d6875;
+  width: 100%;
+  min-height: 60px;
+  margin: 5px 0;
+}
+.menu ul {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*  icon and png in sidebar */
+.img-user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
+.img-check {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25px;
+  height: 33px;
+}
+.img-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25px;
+  height: 17px;
+}
+.image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+/* end icon and png in sidebar */
+
+/* The text inside the menu list in the sidebar */
+.name-admin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 19px;
+  color: #f5f5f5;
+  padding: 0 22px;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.admin {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+/* end the text inside the menu list in the sidebar */
+
+/* hover menu list and color icon */
+ul li:hover {
+  background-color: #865760;
+  transition: ease-in 0.03s;
+}
+.name-exit {
+  color: #720004;
+}
+.list-exit {
+  background-color: #e6e6e6;
+  border: 0;
+  margin-top: 50px;
+}
+
+.list-exit a {
+    display: flex;
+    justify-content: center;
+}
+.list-item:hover .name-exit {
+  color: #ffffff;
+  transition: ease-in 0.03s;
+}
+.list-item-exit {
+  background-color: #e6e6e6;
+  border: 0;
+}
+li a {
+  padding: 10px 20px;
+}
+/* end menu lists in sidebar  */
+/* end sidebar */
+
+
+/* start container-left */
+.container-left {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.left {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+}
+
+/* end container-left */
+
+/* start navbar */
+.navbar{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right,#B5838D,#716A76);
+
+}
+
+.navbar p{
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar button{
+  margin: 20px 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+  font-family: Dana;
+background-color: #ffffff;
+}
+.navbar button:hover{
+background-color: #865760;
+color: #ffffff;
+}
+
+/* end navbar */
+
+/* start active-elections */
+
+.active-elections{
+  margin: 15px 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+.election-box{
+  width: 45%;
+  height: 180px;
+display: flex;
+flex-direction: column;
+padding: 10px 0px;
+}
+.header-election{
+  width: 100%;
+  height: 80px;
+background-image: linear-gradient(to right,#B5838D,#716A76);
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 5px 5px 0 0;
+padding: 10px 0;
+}
+.election-box a{
+  text-decoration: none;
+  color: #000000;
+}
+.header-election h4{
+  color: #F5F5F5;
+  font-size: 16px;
+}
+.body-election{
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff !important;
+}
+.body-election p{
+  padding: 20px 20px;
+}
+/* ended elections class */
+
+.ended-elections{
+  width: 100%;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin-bottom: 15px;
+}
+.end-election{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-ended-election{
+    width: 100%;
+  height: 80px;
+background-color: #727272;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 5px 5px 0 0;
+padding: 10px 0;
+color: #ffffff;
+}
+/* end active-elections  */
+
+/* start footer */
+.footer {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.footer-right {
+  width: 70%;
+  height: 171px;
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-right p {
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.footer-right h6 {
+  display: flex;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 30px 20px 10px 20px;
+}
+.footer-left {
+  width: 30%;
+  height: 171px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-left h6 {
+  display: flex;
+  color: #000000;
+  font-size: 24px;
+}
+.footer-left p {
+  font-size: 16px;
+  color: #404040;
+}
+/* end footer */

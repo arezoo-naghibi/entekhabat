@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entekhabat | Login</title>
+        <link rel="stylesheet" href="./assets/styles/login.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body dir="rtl">
+        <main class="container">
+            <div class="container-right">
+                <div class="right">
+                    <div class="vote">
+                        <span class="img-container">
+                            <img src="./assets/img/vote.png" alt="login poster">
+                        </span>
+                        <div class="title-container">
+                            <h1>
+                                سامانه
+                                <br>
+                                انتخابات سازمانی
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="inputs">
+                        <form>
+                            <div class="input-box">
+                                <div class="national-code-input">
+                                    <input placeholder="کدملی"
+                                        inputmode="number" type="number"
+                                        pattern="\d*" maxlength="10"
+                                        class="national-code invalid"
+                                        id="national-code">
+                                    <div id="close">
+                                        <span class="fa fa-close"></span>
+                                    </div>
+                                    <p class="error" id="error"></p>
+                                    <p class="correct" id="correct"></p>
+                                </div>
+
+                                <div class="input-password">
+                                    <input type="password"
+                                        class="password invalid"
+                                        placeholder="رمز عبور" id="password"
+                                        required>
+                                    <span
+                                        id="eye" class="fa fa-eye-slash">
+                                    </span>
+                                    <p class="error-pass" id="error-password"></p>
+                                    <p class="correct-pass"
+                                        id="correct-password"></p>
+                                </div>
+                           
+                            </div>
+                            <div class="note">
+                                <p class="reminder">
+                                    اگر اولین بار است که وارد
+                                    می‌شوید
+                                    رمز عبور شما
+                                    کد
+                                    ملی
+                                    است
+                                </p>
+                            </div>
+
+                            <a href="#" class="button" id="btn">
+                                ورود
+                                به حساب کاربری
+                            </a>
+
+                            <div class="link">
+                                <a
+                                    href="reset-password.html">
+                                    رمز عبورم را فراموش کرده ام
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container-left">
+                <div class="left">
+                    <div class="news">
+                        <div class="title">
+                            <h3>
+                                اخبار و اطلاعیه ها
+                            </h3>
+                        </div>
+                        <div class="news-box">
+                            <h5 class="title-news-box">
+                                عنوان یک خبر
+                            </h5>
+                            <p class="text-news-box">
+                                متن ساده لورم ایپسوم متن ساختگی
+                                با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از طراحان گرافیک است. چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                لازم است و برای شرایط فعلی تکنولوژی مورد
+                                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                کاربردی می باشد.
+                            </p>
+                        </div>
+                        <div class="second-news-box">
+                            <h5 class="title-news-box">
+                                اطلاعیه دیگر
+                            </h5>
+                            <p class="text-news-box">
+                                متن ساده لورم ایپسوم متن ساختگی
+                                با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از طراحان گرافیک است.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./assets/script/login.js"></script>
+    </body>
+</html>
